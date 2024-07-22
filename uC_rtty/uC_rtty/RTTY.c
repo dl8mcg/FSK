@@ -187,7 +187,7 @@ void SetRttyText(const char * buf)
 
 void RttyGetNextCharacter()
 {
-	Rttybyte = RttyBuf[character++];			// get CW-pattern of next text-character
+	Rttybyte = RttyBuf[character++];			// get next text-character
 
 	if(Rttybyte == 0)							// end of buffer ?
 	{
